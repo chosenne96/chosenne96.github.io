@@ -22,6 +22,48 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 
 Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
+## Build & Run
+
+### 사전 준비사항
+
+- Ruby 설치 (버전 2.5.0 이상)
+- RubyGems 설치
+- GCC 및 Make 설치
+
+### 설치 방법
+
+```bash
+# Jekyll 및 Bundler 설치
+gem install jekyll bundler
+
+# 의존성 설치
+bundle install
+```
+
+### 로컬 서버 실행
+
+```bash
+# 개발 서버 실행 (기본 포트 4000)
+bundle exec jekyll serve
+
+# 실시간 변경 감지 기능 활성화
+bundle exec jekyll serve --livereload
+
+# 다른 포트로 실행하기 (예: 4001)
+bundle exec jekyll serve --port 4001
+```
+
+서버가 실행되면 `http://localhost:4000`에서 사이트를 확인할 수 있습니다.
+
+### 빌드
+
+```bash
+# 사이트 빌드
+bundle exec jekyll build
+
+# 빌드된 파일은 _site 디렉토리에 생성됩니다
+```
+
 
 ## Options
 

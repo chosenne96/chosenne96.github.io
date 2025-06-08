@@ -7,13 +7,20 @@ permalink:        /:title/
 
 # Setup
 title:            Seong-eun Cho
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+tagline:          
+description:      '<p>Cognitive Neuroscience Researcher | Graduate Student at Seoul National University</p>
+                    <ul>
+                      <li>Graduate Student at Developmental Cognitive Neuroscience Lab, Department of Brain and Cognitive Sciences, Seoul National University, under the guidance of Dr. Sang Ah Lee</li>
+                      <li>B.A. in Psychology, Chung-Ang University (2020-2024, Summa Cum Laude)</li>
+                      <li>Research Interests: Memory Systems, Spatial Navigation, Cognitive Development</li>
+                    </ul>
+                    <p>Email: chosee@snu.ac.kr | choseeng@gmail.com</p>
+                  <span>#memory #spatial_navigation #cognitive_neuroscience</span>'
 url:              https://chosenne96.github.io
 baseurl:          /
 
 author:
-  name:           'Chosenne'
+  name:           'Seong-eun Cho'
   url:            https://chosenne96.github.io
 
 paginate:         5

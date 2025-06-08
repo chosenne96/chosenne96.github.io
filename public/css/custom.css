@@ -54,4 +54,47 @@ html {
   opacity: 0.7;
   margin: 0;
   text-align: center;
+}
+
+.lead {
+  font-size: 0.9rem !important;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.lead p:first-child {
+  font-size: 0.75rem !important;
+  color: rgba(255,255,255,.7);
+  margin-bottom: 1rem;
+}
+
+.sidebar-about .tagline {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: rgba(255,255,255,.5);
+}
+
+.lead br {
+  content: "";
+  margin: 0.3em;
+  display: block;
+}
+
+.lead ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1em;
+}
+
+.lead li {
+  margin-bottom: 0.5em;
+}
+
+.sidebar-about h1 {
+  font-size: 2rem !important;
+}
+
+.sidebar span {
+  display: block;
+  margin-top: 1em;
 } 
