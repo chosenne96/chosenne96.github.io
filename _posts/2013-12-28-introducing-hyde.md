@@ -1,37 +1,51 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Hello there! 👋 I'm Seong-eun from South Korea.
+date: 2025-12-07
 ---
 
-Hyde is a brazenㅁㄴㅇㄴㅁㅇㄴ two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-### Built on Poole
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+I'm currently a Master's Candidate in the Department of Brain and Cognitive Sciences at <u>Seoul National University (SNU)</u>, South Korea. I have the fantastic opportunity to work under the supervision of <u>Prof. SangAh Lee</u>.
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
 
-### Hyde features
+## 🔍 Research Focus
 
-In addition to the features of Poole, Hyde adds the following:
+I'm fascinated in how we perceive and navigate space, and how our spatial experiences are ultimately represented and organized into memory structures.
 
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `<body>` classes
+**[The Hippocampal Remapping: Mechanisms of Memory Separation and Integration](/hippocampal-remapping)**
 
-[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+My main research project delves into the neural mechanisms of hippocampal remapping: how the hippocampus dynamically balances the need to separate overlapping memories and integrate related experiences into a cohesive map.
 
-### Browser support
 
-Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+## 🎓 Academic Background
 
-### Download
+I hold a B.A. in Psychology from <u>Chung-Ang University (CAU)</u> in Seoul, where I graduated with Summa Cum Laude honors (GPA: 4.27/4.5!).
 
-Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
+Even since my undergraduate years, I've been particularly passionate about the process of science—especially the designing of experimental paradigms and the data-driven verification of hypotheses.
 
-Thanks!
+### My research journey includes:
+
+- **Brain and Cognition Community (BCSC) at <u>SNU</u>**: Presented a poster on the topic of "Enhancement of Executive Function and Structural Brain Development in Bilingual Users."
+
+- **Academic Group '사색' at <u>CAU Psychology</u>**: Conducted a replication study on the effect of "Probability of Change on Change Detection performance in Visual Short-Term Memory."
+
+- **Research Assistant (RA) at <u>Prof. Yang-Seok Cho's Lab</u> (<u>Korea University</u>)**:
+  - Studied literature related to selective attention and top-down suppression.
+  - Assisted with EEG experiments.
+
+- **Research Assistant (RA) at <u>Prof. Soo-hyun Cho's Lab</u> (<u>Chung-Ang University</u>)**:
+  - Reviewed papers on number cognition and post-decision change phenomena.
+  - Handled fMRI preprocessing tasks using Python.
+
+
+## 🏆 Awards & Recognition
+
+- First Rank of Class in the Department of Psychology, <u>Chung-Ang University</u> (2021)
+- <u>Chung-Ang University</u> Alumni Jin Jeong-ju Scholarship (2021)
+- Hyundai Motor Company H-Jump School Scholarship (2022)
+
+## 📜 Other Qualifications
+
+- **TOEIC**: 940
+- **TEPS**: 441

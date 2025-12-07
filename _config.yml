@@ -7,15 +7,13 @@ permalink:        /:title/
 
 # Setup
 title:            Seong-eun Cho
-tagline:          
-description:      '<p>Cognitive Neuroscience Researcher | Graduate Student at Seoul National University</p>
-                    <ul>
-                      <li>Graduate Student at Developmental Cognitive Neuroscience Lab, Department of Brain and Cognitive Sciences, Seoul National University, under the guidance of Dr. Sang Ah Lee</li>
-                      <li>B.A. in Psychology, Chung-Ang University (2020-2024, Summa Cum Laude)</li>
-                      <li>Research Interests: Memory Systems, Spatial Navigation, Cognitive Development</li>
-                    </ul>
-                    <p>Email: chosee@snu.ac.kr | choseeng@gmail.com</p>
-                  <span>#memory #spatial_navigation #cognitive_neuroscience</span>'
+tagline:          ''
+description:      |
+                  <p>Cognitive Neuroscience Researcher</p>
+                  <ul>
+                    <li>Research Interests: Spatial Cognition, Episodic Memory</li>
+                  </ul>
+                  <p>Email: chosee@snu.ac.kr</p>
 url:              https://chosenne96.github.io
 baseurl:          /
 
