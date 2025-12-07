@@ -114,6 +114,55 @@ html {
   color: rgba(255,255,255,.6);
 }
 
+
+/* 사이드바 인트로 텍스트 */
+.sidebar-intro {
+  font-size: 0.7rem !important;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.sidebar-intro p {
+  margin-bottom: 0.8rem;
+  font-size: 0.7rem !important;
+}
+
+.sidebar-intro strong {
+  font-weight: 600;
+  color: rgba(255,255,255,1);
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-intro ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.65rem !important;
+}
+
+.sidebar-intro li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.sidebar-intro a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: underline;
+}
+
+.sidebar-intro a:hover {
+  color: rgba(255,255,255,1);
+}
+
+.sidebar-intro u {
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.5);
+}
+
 /* 포스트 제목을 본문과 같은 크기로 */
 .post-title {
   font-size: 1rem !important;
@@ -203,4 +252,19 @@ html {
 /* 섹션 간 간격 */
 .post > * + * {
   margin-top: 0.5rem;
+}
+
+/* 프로필 이미지 스타일 (오른쪽으로 배치, 텍스트와 나란히) */
+.profile-image {
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+  width: 200px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: block;
 } 

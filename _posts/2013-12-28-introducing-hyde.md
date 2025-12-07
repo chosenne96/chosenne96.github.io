@@ -4,7 +4,9 @@ title: Hello there! 👋 I'm Seong-eun from South Korea.
 date: 2025-12-07
 ---
 
-
+<div class="profile-image">
+  <img src="/public/images/profile.png" alt="Seong-eun Cho">
+</div>
 
 I'm currently a Master's Candidate in the Department of Brain and Cognitive Sciences at <u>Seoul National University (SNU)</u>, South Korea. I have the fantastic opportunity to work under the supervision of <u>Prof. SangAh Lee</u>.
 
