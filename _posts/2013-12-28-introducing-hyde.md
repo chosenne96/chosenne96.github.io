@@ -15,39 +15,46 @@ I'm currently a Master's Candidate in the Department of Brain and Cognitive Scie
 
 I'm fascinated in how we perceive and navigate space, and how our spatial experiences are ultimately represented and organized into memory structures.
 
-**[The Hippocampal Remapping: Mechanisms of Memory Separation and Integration](/hippocampal-remapping)**
+**[Hippocampal Remapping: Mechanisms of Memory Separation and Integration](/hippocampal-remapping)**
 
-My main research project delves into the neural mechanisms of hippocampal remapping: how the hippocampus dynamically balances the need to separate overlapping memories and integrate related experiences into a cohesive map.
+My main research project explores the neural mechanisms of hippocampal remapping: how the hippocampus dynamically balances the need to separate overlapping memories and integrate related experiences into a cohesive map.
 
 
 ## 🎓 Academic Background
 
-I hold a B.A. in Psychology from <u>Chung-Ang University (CAU)</u> in Seoul, where I graduated with Summa Cum Laude honors (GPA: 4.27/4.5!).
+I hold a B.A. in Psychology from Chung-Ang University (CAU) in Seoul, where I graduated with Summa Cum Laude honors (GPA: 4.27/4.5!).
 
 Even since my undergraduate years, I've been particularly passionate about the process of science—especially the designing of experimental paradigms and the data-driven verification of hypotheses.
 
 ### My research journey includes:
 
-- **[Brain and Cognition Community (BCSC) at <u>SNU</u>](/bcsc-snu)**: Presented a poster on the topic of "Enhancement of Executive Function and Structural Brain Development in Bilingual Users."
+**[Brain and Cognition Community (BCSC) at SNU](/bcsc-snu)**: 
+- Presented a poster on the topic of "Enhancement of Executive Function and Structural Brain Development in Bilinguals."
 
-- **[Academic Group '사색' at <u>CAU</u>](/sasang-cau)**: Conducted a replication study on the effect of "Probability of Change on Change Detection performance in Visual Short-Term Memory."
+**[Academic Group '사색' at CAU](/sasang-cau)**: 
+- Conducted a replication study on the effect of "Probability of Change on Change Detection performance in Visual Short-Term Memory."
 
-- **[Research Assistant (RA) at <u>Prof. Yang-Seok Cho's Lab</u> (<u>Korea University</u>)](/yangseok-cho-lab)**:
-  - Studied literature related to selective attention and top-down suppression.
-  - Assisted with EEG experiments.
+**[Research Assistant (RA) at Prof. Yang-Seok Cho's Lab (Korea University)](/yangseok-cho-lab)**:
+- Studied literature related to selective attention and top-down suppression.
+- Assisted with EEG experiments.
 
-- **[Research Assistant (RA) at <u>Prof. Soo-hyun Cho's Lab</u> (<u>Chung-Ang University</u>)](/soohyun-cho-lab)**:
-  - Reviewed papers on number cognition and post-decision change phenomena.
-  - Handled fMRI preprocessing tasks using Python.
+**[Research Assistant (RA) at Prof. Soo-hyun Cho's Lab (Chung-Ang University)](/soohyun-cho-lab)**:
+- Reviewed papers on number cognition and post-decision change phenomena.
+- Handled fMRI preprocessing tasks using Python.
 
 
 ## 🏆 Awards & Recognition
 
-- First Rank of Class in the Department of Psychology, <u>Chung-Ang University</u> (2021)
-- <u>Chung-Ang University</u> Alumni Jin Jeong-ju Scholarship (2021)
+- First Rank of Class in the Department of Psychology, Chung-Ang University (2021)
+- Chung-Ang University Alumni Jin Jeong-ju Scholarship (2021)
 - Hyundai Motor Company H-Jump School Scholarship (2022)
 
-## 📜 Other Qualifications
+## 📜 Skillsets
 
-- **TOEIC**: 940
-- **TEPS**: 441
+Languages: Korean (Native), English (Fluent)
+
+Programming & Tools:
+ Data Analysis & Statistics: Matlab, R
+ 
+ Experimental & VR Development: C#, Unity
+  - Note: I have independently developed VR navigation tasks using C# and Unity for experimental purposes.
