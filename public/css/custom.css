@@ -332,13 +332,15 @@ a:focus {
     padding-bottom: 2rem;
   }
   
-  /* 포스트 제목 모바일 크기 조정 */
-  .post-title {
+  /* 포스트 및 페이지 제목 모바일 크기 조정 */
+  .post-title,
+  .page-title {
     font-size: 1.2rem !important;
   }
   
   /* 부제목 모바일 크기 조정 */
-  .post h2 {
+  .post h2,
+  .page h2 {
     font-size: 1.3rem !important;
     margin-top: 2rem;
   }
@@ -348,12 +350,52 @@ a:focus {
     min-height: 600px;
   }
   
-  /* 사이드바 모바일 최적화 */
+  /* 사이드바 모바일 최적화 - 크기 줄이기 */
+  .sidebar {
+    padding: 1rem 0.75rem !important;
+  }
+  
   .sidebar .container {
-    padding: 1.5rem 1rem;
+    padding: 0.5rem 0.5rem;
+    height: auto;
+    min-height: auto;
   }
   
   .sidebar-about h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar-about .lead {
+    font-size: 0.7rem !important;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-nav {
+    margin-bottom: 1rem !important;
+  }
+  
+  .sidebar-nav-item {
+    font-size: 0.85rem !important;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0;
+  }
+  
+  .sidebar-bottom {
+    margin-top: 0.5rem;
+  }
+  
+  .copyright {
+    font-size: 0.65rem !important;
+    margin: 0;
+  }
+  
+  /* 페이지 레이아웃 모바일 스타일 */
+  .page {
+    margin-bottom: 2em;
+  }
+  
+  .page h1 {
+    font-size: 1.3rem !important;
   }
 } 
