@@ -313,4 +313,47 @@ a:focus {
   border-radius: 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   display: block;
+}
+
+/* 모바일 반응형 스타일 */
+@media (max-width: 47.99em) {
+  /* 프로필 이미지를 모바일에서 전체 너비로 표시 */
+  .profile-image {
+    float: none;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+  }
+  
+  /* 콘텐츠 영역 모바일 최적화 */
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* 포스트 제목 모바일 크기 조정 */
+  .post-title {
+    font-size: 1.2rem !important;
+  }
+  
+  /* 부제목 모바일 크기 조정 */
+  .post h2 {
+    font-size: 1.3rem !important;
+    margin-top: 2rem;
+  }
+  
+  /* PDF 뷰어 모바일 최적화 */
+  .pdf-viewer iframe {
+    min-height: 600px;
+  }
+  
+  /* 사이드바 모바일 최적화 */
+  .sidebar .container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .sidebar-about h1 {
+    font-size: 1.5rem !important;
+  }
 } 
