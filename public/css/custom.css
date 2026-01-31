@@ -349,6 +349,24 @@ a:focus {
 
 /* 모바일 반응형 스타일 */
 @media (max-width: 47.99em) {
+  /* 전체 레이아웃 모바일 최적화 */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* 콘텐츠 영역 모바일 최적화 */
+  .content {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  
   /* 프로필 이미지를 모바일에서 전체 너비로 표시 */
   .profile-image {
     float: none;
@@ -356,12 +374,7 @@ a:focus {
     max-width: 500px;
     margin: 2rem auto 2rem auto;
     text-align: center;
-  }
-  
-  /* 콘텐츠 영역 모바일 최적화 */
-  .content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    box-sizing: border-box;
   }
   
   /* 포스트 및 페이지 제목 모바일 크기 조정 */
@@ -375,10 +388,10 @@ a:focus {
     margin-bottom: 2rem;
   }
   
-  .page-title {
-    font-size: 3.5rem !important;
+  .page .page-title {
+    font-size: 2rem !important;
     font-weight: bold !important;
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
     margin-top: 0 !important;
     line-height: 1.2 !important;
     color: #000000 !important;
@@ -447,23 +460,28 @@ a:focus {
   /* 페이지 레이아웃 모바일 스타일 */
   .page {
     margin-bottom: 2em;
+    padding: 0 1rem;
   }
   
   .page h1.page-title {
     font-size: 2rem !important;
     margin-bottom: 2rem !important;
+    word-wrap: break-word;
   }
   
   /* 모든 페이지 요소에 모바일 스타일 적용 */
   .post,
   .page {
     line-height: 1.8;
+    padding: 0;
   }
   
   .post p,
   .page p {
     margin-bottom: 1rem;
     line-height: 1.8;
+    font-size: 1rem;
+    word-wrap: break-word;
   }
   
   .post ul,
@@ -477,17 +495,40 @@ a:focus {
   .page li {
     margin-bottom: 0.8rem;
     line-height: 1.8;
+    font-size: 0.95rem;
   }
   
   .post a,
   .page a {
-    color: #0a86d4;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
+    word-wrap: break-word;
   }
   
   .post strong,
   .page strong {
     font-weight: 600;
+  }
+  
+  /* Key Takeaway 모바일 스타일 */
+  .key-takeaway {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+  }
+  
+  .key-takeaway p {
+    font-size: 0.95rem;
+  }
+  
+  /* Contact Inquiry 모바일 스타일 */
+  .contact-inquiry {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+  
+  .contact-inquiry p {
+    font-size: 1rem;
   }
   
   /* Education 모바일 스타일 */
@@ -521,13 +562,35 @@ a:focus {
     gap: 1rem !important;
   }
   
-  .research-card {
-    min-height: 100px;
-    padding: 1.2rem;
+  .post .research-card {
+    min-height: 100px !important;
+    padding: 1.2rem !important;
   }
   
-  .research-card-title {
-    font-size: 0.9rem;
+  .post .research-card-title {
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  /* Contact Info 모바일 스타일 */
+  .contact-info {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    font-size: 0.85rem;
+  }
+  
+  /* PDF 뷰어 모바일 최적화 */
+  .pdf-viewer {
+    margin: 1.5rem 0;
+  }
+  
+  .pdf-viewer h3 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .pdf-viewer iframe {
+    min-height: 500px;
   }
 }
 
