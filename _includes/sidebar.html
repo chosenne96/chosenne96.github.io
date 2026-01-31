@@ -3,17 +3,16 @@
     <div class="sidebar-top">
       <div class="sidebar-about">
         <h1>
-          <a href="{{ site.baseurl }}">
-            {{ site.title }}
-          </a>
+          {{ site.title }}
         </h1>
-        <p class="tagline">{{ site.tagline }}</p>
-        <p class="lead">{{ site.description }}</p>
       </div>
 
       <nav class="sidebar-nav">
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-        <a class="sidebar-nav-item{% if page.url == '/hippocampal-remapping/' %} active{% endif %}" href="/hippocampal-remapping/">Hippocampal Remapping</a>
+        <a class="sidebar-nav-item{% if page.url == '/academic-background/' %} active{% endif %}" href="/academic-background/">Academic Background</a>
+        <a class="sidebar-nav-item{% if page.url == '/hippocampal-remapping/' %} active{% endif %}" href="/hippocampal-remapping/">Current Master's Project</a>
+        <a class="sidebar-nav-item{% if page.url == '/awards-recognition/' %} active{% endif %}" href="/awards-recognition/">Awards</a>
+        <a class="sidebar-nav-item{% if page.url == '/skillsets/' %} active{% endif %}" href="/skillsets/">Skillsets</a>
         <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
       </nav>
     </div>
