@@ -1,24 +1,122 @@
-<div class="sidebar">
-  <div class="container">
+<aside class="sidebar">
+  <div class="sidebar-inner">
+    <!-- Top section: Name, Affiliation, Email -->
     <div class="sidebar-top">
-      <div class="sidebar-about">
-        <h1>
-          {{ site.title }}
-        </h1>
-      </div>
+      <h1 class="site-name">Seong-eun Cho</h1>
+      <p class="site-affiliation">M.S. Candidate, Brain & Cognitive Sciences<br>Seoul National University</p>
+      <p class="site-email">
+        <a href="mailto:chosee@snu.ac.kr">chosee@snu.ac.kr</a>
+      </p>
 
-      <nav class="sidebar-nav">
-        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-        <a class="sidebar-nav-item{% if page.url == '/academic-background/' %} active{% endif %}" href="/academic-background/">Academic Background</a>
-        <a class="sidebar-nav-item{% if page.url == '/hippocampal-remapping/' %} active{% endif %}" href="/hippocampal-remapping/">Current Master's Project</a>
-        <a class="sidebar-nav-item{% if page.url == '/awards-recognition/' %} active{% endif %}" href="/awards-recognition/">Awards</a>
-        <a class="sidebar-nav-item{% if page.url == '/skillsets/' %} active{% endif %}" href="/skillsets/">Skillsets</a>
-        <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
+      <!-- Navigation -->
+      <nav class="site-nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#updates" class="nav-link">Updates</a>
+        <a href="#resume" class="nav-link">Resume</a>
       </nav>
+
+      <!-- Social Icons -->
+      <div class="social-links">
+        <a href="https://github.com/chosenne96" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:chosee@snu.ac.kr" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
     </div>
 
+    <!-- Bottom section: Copyright -->
     <div class="sidebar-bottom">
-      <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+      <p class="copyright">&copy; {{ site.time | date: '%Y' }} Seong-eun Cho</p>
     </div>
   </div>
+</aside>
+
+<!-- Mobile Header -->
+<header class="mobile-header">
+  <h1 class="mobile-name">Seong-eun Cho</h1>
+  <button class="mobile-menu-btn" aria-label="Toggle menu">
+    <i class="fas fa-bars"></i>
+  </button>
+</header>
+
+<div class="mobile-nav-overlay">
+  <nav class="mobile-nav">
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#updates" class="mobile-nav-link">Updates</a>
+    <a href="#resume" class="mobile-nav-link">Resume</a>
+    <div class="mobile-social-links">
+      <a href="https://github.com/chosenne96" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+      <a href="mailto:chosee@snu.ac.kr"><i class="fas fa-envelope"></i></a>
+    </div>
+  </nav>
 </div>
+
+<script>
+  // Mobile menu toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const overlay = document.querySelector('.mobile-nav-overlay');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (menuBtn) {
+      menuBtn.addEventListener('click', function() {
+        overlay.classList.toggle('active');
+        menuBtn.querySelector('i').classList.toggle('fa-bars');
+        menuBtn.querySelector('i').classList.toggle('fa-times');
+      });
+    }
+
+    mobileLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        overlay.classList.remove('active');
+        menuBtn.querySelector('i').classList.add('fa-bars');
+        menuBtn.querySelector('i').classList.remove('fa-times');
+      });
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Active nav highlight on scroll
+    var sections = document.querySelectorAll('section[id]');
+    var navLinks = document.querySelectorAll('.nav-link');
+
+    function highlightNav() {
+      var scrollPos = document.querySelector('.main-content')
+        ? document.querySelector('.main-content').scrollTop
+        : window.scrollY;
+
+      sections.forEach(function(section) {
+        var top = section.offsetTop - 120;
+        var bottom = top + section.offsetHeight;
+        var id = section.getAttribute('id');
+
+        if (scrollPos >= top && scrollPos < bottom) {
+          navLinks.forEach(function(link) {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + id) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }
+
+    var mainContent = document.querySelector('.main-content');
+    if (mainContent) {
+      mainContent.addEventListener('scroll', highlightNav);
+    }
+    window.addEventListener('scroll', highlightNav);
+    highlightNav();
+  });
+</script>

@@ -7,11 +7,8 @@ permalink:        /:title/
 
 # Setup
 title:            Seong-eun Cho
-tagline:          ''
-description:      |
-                  <p>Cognitive Neuroscience Researcher</p>
-                  <p>🔬 Research Interests: Spatial Cognition, Episodic Memory</p>
-                  <p>💌 Contact: chosee@snu.ac.kr</p>
+tagline:          'Cognitive Neuroscience Researcher'
+description:      'M.S. Candidate in Brain & Cognitive Sciences at Seoul National University. Research interests in Spatial Cognition and Episodic Memory.'
 url:              https://chosenne96.github.io
 baseurl:          /
 
@@ -19,14 +16,14 @@ author:
   name:           'Seong-eun Cho'
   url:            https://chosenne96.github.io
 
-paginate:         5
-
 plugins:
   - jekyll-paginate
   - jekyll-gist
 
+paginate:         5
+
 # Custom vars
-version:          2.1.0
+version:          3.0.0
 
 github:
   repo:           https://github.com/chosenne96
